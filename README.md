@@ -13,8 +13,8 @@ Before getting started, ensure you have the following:
 
 ## Installation
 
-1. Clone this repository: `git clone https://github.com/your-username/esp32-blink-led-morse-code.git`
-2. Change into the project directory: `cd esp32-blink-led-morse-code`
+1. Clone this repository: `git clone https://github.com/R34ll/esp32-blink-morse-code.git`
+2. Change into the project directory: `cd esp32-blink-morse-code`
 3. Build the project: `idf.py build`
 4. Flash the firmware to the ESP32: `idf.py -p <port> flash` (replace `<port>` with the appropriate serial port)
 
