@@ -52,15 +52,15 @@ void morseCodeInterpreter(const char* text){
 
 
 void app_main(void){
-	const char* inputText = "SOS";
+	const char* morse_code_message = "SOS";
 
-    gpio_reset_pin(LED_GPIO_PIN);
-    gpio_set_direction(LED_GPIO_PIN, GPIO_MODE_OUTPUT);
+	gpio_reset_pin(LED_GPIO_PIN);
+    	gpio_set_direction(LED_GPIO_PIN, GPIO_MODE_OUTPUT);
 
 
-    while(1){
-	    morseCodeInterpreter(inputText);
-    }
+    	while(1){
+		morseCodeInterpreter(morse_code_message);
+    	}
 
 }
 
